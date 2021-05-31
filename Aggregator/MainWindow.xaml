@@ -1,0 +1,18 @@
+﻿<Window x:Class="Aggregator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aggregator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,0,-6" HorizontalAlignment="Center">
+        <Image Name="ProductImage"  HorizontalAlignment="Left" Height="170" Margin="42,42,0,0" VerticalAlignment="Top" Width="170"/>
+        <Label Name="LabelName" Content="Name" HorizontalAlignment="Left" Margin="286,42,0,0" VerticalAlignment="Top" Height="30" Width="374"/>
+        <Label Content="Цена в грн" HorizontalAlignment="Left" Margin="286,90,0,0" VerticalAlignment="Top" Width="93"/>
+        <Label Name ="LabelPrice" Content="" HorizontalAlignment="Left" Margin="416,90,0,0" VerticalAlignment="Top" Width="96"/>
+        <ListBox Name="LBFullDescr" HorizontalAlignment="Left" Height="127" Margin="42,262,0,0" VerticalAlignment="Top" Width="699"/>
+        <TextBox Name="LBShortDescr" HorizontalAlignment="Left" Margin="286,149,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="445" Height="71"/>
+
+    </Grid>
+</Window>
